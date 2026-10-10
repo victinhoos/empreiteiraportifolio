@@ -1,0 +1,20 @@
+.botao-whatsaap {
+  background: #25d366; border-radius: 50px; width: fit-content;
+  animation: shake 1.5s infinite;
+}
+.botao-whatsaap a {
+  display: flex; align-items: center; gap: 10px; padding: 12px 20px; text-decoration: none;
+}
+.botao-whatsaap img {
+  width: 20px; height: 20px; filter: brightness(0) invert(1);
+}
+.botao-whatsaap h1 {
+  font-size: 14px; color: #fff; white-space: nowrap; max-width: 0; overflow: hidden; opacity: 0; transition: max-width 0.4s ease, opacity 0.3s ease;
+}
+.botao-whatsaap:hover a h1 { max-width: 300px; opacity: 1; }
+.botao-whatsaap:hover { animation: none; }
+@keyframes shake {
+  0%, 100% { transform: rotate(0); }
+  20%, 60% { transform: rotate(-8deg); }
+  40%, 80% { transform: rotate(8deg); }
+}
