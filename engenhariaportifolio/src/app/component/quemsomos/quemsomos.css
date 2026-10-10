@@ -1,0 +1,17 @@
+.quem-somos {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 24px;
+}
+
+.quem-somos h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 32px;
+}
+
+.quem-somos p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
