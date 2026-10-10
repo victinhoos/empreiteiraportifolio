@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: var(--text-color);
+    padding-bottom: 6px;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 0;
+    height: 2px;
+
+    background-color: var(--primary-color);
+
+    transition: width 0.3s ease;
+}
+
+nav a.ativo::after {
+    width: 100%;
+}
