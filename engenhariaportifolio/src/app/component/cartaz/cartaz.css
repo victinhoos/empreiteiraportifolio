@@ -1,0 +1,32 @@
+.container-nosso-imoveis { 
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    padding: 10px; 
+}
+
+.container-nosso-imoveis a { 
+    display: flex; 
+    align-items: center; 
+    background: #e0e0e0; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    text-decoration: none; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+    width: 100%;
+    max-width: 500px; 
+}
+
+.container-nosso-imoveis img { 
+    width: 50%; 
+    height: 220px; 
+    object-fit: cover; 
+}
+
+.container-nosso-imoveis h1 { 
+    color: #990000; 
+    font-size: 1.3rem; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 0 10px;
+}

@@ -1,5 +1,11 @@
 .botao-whatsaap {
-  background: #25d366; border-radius: 50px; width: fit-content;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background: #25d366; 
+  border-radius: 50px; 
+  width: fit-content;
   animation: shake 1.5s infinite;
 }
 .botao-whatsaap a {
