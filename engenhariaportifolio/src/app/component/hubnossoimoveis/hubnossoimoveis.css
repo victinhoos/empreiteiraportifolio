@@ -1,0 +1,92 @@
+.titulo-wrapper {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.titulo-imoveis {
+  font-family: var(--font-titulo);
+  color: var(--primary-color);
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.tiposdeimoveis ul {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  align-items: center;
+  list-style: none;
+}
+
+.tiposdeimoveis a {
+  padding: 8px 24px;
+  border: 1px solid var(--text-secondary);
+  border-radius: 50px;
+  display: inline-block;
+  color: var(--text-color);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.tiposdeimoveis-certo {
+  background-color: var(--primary-color);
+  color: #fff !important;
+  border-color: var(--primary-color);
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--text-secondary);
+  border-radius: 40px;
+  overflow: hidden;
+  height: 40px;
+  min-width: 280px;
+  max-width: 360px;
+  flex: 1;
+}
+
+.pesquisa input {
+  border: none;
+  outline: none;
+  padding: 0 16px;
+  flex: 1;
+  height: 100%;
+  background: transparent;
+  color: var(--text-color);
+  font-family: var(--font-corpo);
+}
+
+.pesquisa button {
+  border: none;
+  border-left: 1px solid var(--text-secondary);
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 100%;
+  padding: 0 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--text-secondary);
+}
+
+.pesquisa button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pesquisa:focus-within {
+  border-color: var(--primary-color);
+}
+
+.pesquisa:focus-within button {
+  border-left-color: var(--primary-color);
+  color: var(--primary-color);
+}
